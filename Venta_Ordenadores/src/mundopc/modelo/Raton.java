@@ -5,8 +5,8 @@ public class Raton extends DispositivoEntrada{
     private static int contadorRatones;
 
     // Constructor
-    public Raton(String tipoEntrada, String marca){
-        super(tipoEntrada, marca);
+    public Raton(String tipoDeEntrada, String marca){
+        super(tipoDeEntrada, marca);
         idRaton = ++contadorRatones;
     }
 

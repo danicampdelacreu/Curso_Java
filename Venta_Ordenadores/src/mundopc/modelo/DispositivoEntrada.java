@@ -5,7 +5,7 @@ public class DispositivoEntrada {
     private String marca;
 
     // Constructor
-    public DispositivoEntrada(String tripoDeEntrada, String marca){
+    public DispositivoEntrada(String tipoDeEntrada, String marca){
         this.tipoDeEntrada = tipoDeEntrada;
         this.marca = marca;
     }
